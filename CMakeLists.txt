@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.26)
+project(Embedded-Diploma C)
+
+set(CMAKE_C_STANDARD 90)
+
+add_executable(Embedded-Diploma main.c)

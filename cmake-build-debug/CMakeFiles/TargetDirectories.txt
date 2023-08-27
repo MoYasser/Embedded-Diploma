@@ -1,0 +1,3 @@
+D:/Embedded Course/Embedded-Diploma/cmake-build-debug/CMakeFiles/Embedded-Diploma.dir
+D:/Embedded Course/Embedded-Diploma/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Embedded Course/Embedded-Diploma/cmake-build-debug/CMakeFiles/rebuild_cache.dir
