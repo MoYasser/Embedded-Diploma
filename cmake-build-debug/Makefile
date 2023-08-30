@@ -116,41 +116,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Embedded-Diploma
+# Target rules for targets named Assignment1
 
 # Build rule for target.
-Embedded-Diploma: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Embedded-Diploma
-.PHONY : Embedded-Diploma
+Assignment1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Assignment1
+.PHONY : Assignment1
 
 # fast build rule for target.
-Embedded-Diploma/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Embedded-Diploma.dir\build.make CMakeFiles/Embedded-Diploma.dir/build
-.PHONY : Embedded-Diploma/fast
+Assignment1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment1.dir\build.make CMakeFiles/Assignment1.dir/build
+.PHONY : Assignment1/fast
 
-C_Basics/Assignment1.obj: C_Basics/Assignment1.c.obj
-.PHONY : C_Basics/Assignment1.obj
+#=============================================================================
+# Target rules for targets named Assignment2
+
+# Build rule for target.
+Assignment2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Assignment2
+.PHONY : Assignment2
+
+# fast build rule for target.
+Assignment2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/build
+.PHONY : Assignment2/fast
+
+C_Programming/C_Basics/Assignment1.obj: C_Programming/C_Basics/Assignment1.c.obj
+.PHONY : C_Programming/C_Basics/Assignment1.obj
 
 # target to build an object file
-C_Basics/Assignment1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Embedded-Diploma.dir\build.make CMakeFiles/Embedded-Diploma.dir/C_Basics/Assignment1.c.obj
-.PHONY : C_Basics/Assignment1.c.obj
+C_Programming/C_Basics/Assignment1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment1.dir\build.make CMakeFiles/Assignment1.dir/C_Programming/C_Basics/Assignment1.c.obj
+.PHONY : C_Programming/C_Basics/Assignment1.c.obj
 
-C_Basics/Assignment1.i: C_Basics/Assignment1.c.i
-.PHONY : C_Basics/Assignment1.i
+C_Programming/C_Basics/Assignment1.i: C_Programming/C_Basics/Assignment1.c.i
+.PHONY : C_Programming/C_Basics/Assignment1.i
 
 # target to preprocess a source file
-C_Basics/Assignment1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Embedded-Diploma.dir\build.make CMakeFiles/Embedded-Diploma.dir/C_Basics/Assignment1.c.i
-.PHONY : C_Basics/Assignment1.c.i
+C_Programming/C_Basics/Assignment1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment1.dir\build.make CMakeFiles/Assignment1.dir/C_Programming/C_Basics/Assignment1.c.i
+.PHONY : C_Programming/C_Basics/Assignment1.c.i
 
-C_Basics/Assignment1.s: C_Basics/Assignment1.c.s
-.PHONY : C_Basics/Assignment1.s
+C_Programming/C_Basics/Assignment1.s: C_Programming/C_Basics/Assignment1.c.s
+.PHONY : C_Programming/C_Basics/Assignment1.s
 
 # target to generate assembly for a file
-C_Basics/Assignment1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Embedded-Diploma.dir\build.make CMakeFiles/Embedded-Diploma.dir/C_Basics/Assignment1.c.s
-.PHONY : C_Basics/Assignment1.c.s
+C_Programming/C_Basics/Assignment1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment1.dir\build.make CMakeFiles/Assignment1.dir/C_Programming/C_Basics/Assignment1.c.s
+.PHONY : C_Programming/C_Basics/Assignment1.c.s
+
+C_Programming/C_Basics/Assignment2.obj: C_Programming/C_Basics/Assignment2.c.obj
+.PHONY : C_Programming/C_Basics/Assignment2.obj
+
+# target to build an object file
+C_Programming/C_Basics/Assignment2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/C_Programming/C_Basics/Assignment2.c.obj
+.PHONY : C_Programming/C_Basics/Assignment2.c.obj
+
+C_Programming/C_Basics/Assignment2.i: C_Programming/C_Basics/Assignment2.c.i
+.PHONY : C_Programming/C_Basics/Assignment2.i
+
+# target to preprocess a source file
+C_Programming/C_Basics/Assignment2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/C_Programming/C_Basics/Assignment2.c.i
+.PHONY : C_Programming/C_Basics/Assignment2.c.i
+
+C_Programming/C_Basics/Assignment2.s: C_Programming/C_Basics/Assignment2.c.s
+.PHONY : C_Programming/C_Basics/Assignment2.s
+
+# target to generate assembly for a file
+C_Programming/C_Basics/Assignment2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/C_Programming/C_Basics/Assignment2.c.s
+.PHONY : C_Programming/C_Basics/Assignment2.c.s
 
 # Help Target
 help:
@@ -160,10 +197,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Embedded-Diploma
-	@echo ... C_Basics/Assignment1.obj
-	@echo ... C_Basics/Assignment1.i
-	@echo ... C_Basics/Assignment1.s
+	@echo ... Assignment1
+	@echo ... Assignment2
+	@echo ... C_Programming/C_Basics/Assignment1.obj
+	@echo ... C_Programming/C_Basics/Assignment1.i
+	@echo ... C_Programming/C_Basics/Assignment1.s
+	@echo ... C_Programming/C_Basics/Assignment2.obj
+	@echo ... C_Programming/C_Basics/Assignment2.i
+	@echo ... C_Programming/C_Basics/Assignment2.s
 .PHONY : help
 
 

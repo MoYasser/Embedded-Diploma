@@ -1,4 +1,4 @@
 "E:\Program Files\JetBrains\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "D:\Embedded Course\Embedded-Diploma" -B "D:\Embedded Course\Embedded-Diploma\cmake-build-debug"
--- Configuring done (0.5s)
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: D:/Embedded Course/Embedded-Diploma/cmake-build-debug

@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Embedded Course/Embedded-Diploma/C_Basics/Assignment1.c" "CMakeFiles/Embedded-Diploma.dir/C_Basics/Assignment1.c.obj" "gcc" "CMakeFiles/Embedded-Diploma.dir/C_Basics/Assignment1.c.obj.d"
-  "D:/Embedded Course/Embedded-Diploma/C_Basics/Assignment2.c" "CMakeFiles/Embedded-Diploma.dir/C_Basics/Assignment2.c.obj" "gcc" "CMakeFiles/Embedded-Diploma.dir/C_Basics/Assignment2.c.obj.d"
+  "D:/Embedded Course/Embedded-Diploma/C Programming/C Basics/Assignment2.c" "CMakeFiles/Assignment2.dir/C_Programming/C_Basics/Assignment2.c.obj" "gcc" "CMakeFiles/Assignment2.dir/C_Programming/C_Basics/Assignment2.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

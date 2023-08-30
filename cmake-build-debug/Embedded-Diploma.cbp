@@ -17,8 +17,8 @@
 					<DistClean command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Embedded-Diploma">
-				<Option output="D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Embedded-Diploma.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Assignment1">
+				<Option output="D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Assignment1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Embedded Course/Embedded-Diploma/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -30,14 +30,14 @@
 					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 Embedded-Diploma"/>
+					<Build command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1"/>
 					<CompileFile command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Embedded-Diploma/fast">
-				<Option output="D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Embedded-Diploma.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Assignment1/fast">
+				<Option output="D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Assignment1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Embedded Course/Embedded-Diploma/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -49,7 +49,45 @@
 					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 Embedded-Diploma/fast"/>
+					<Build command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1/fast"/>
+					<CompileFile command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment2">
+				<Option output="D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Assignment2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Embedded Course/Embedded-Diploma/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment2"/>
+					<CompileFile command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment2/fast">
+				<Option output="D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Assignment2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Embedded Course/Embedded-Diploma/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment2/fast"/>
 					<CompileFile command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="E:/PROGRA~2/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Embedded Course/Embedded-Diploma/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -76,8 +114,11 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Embedded Course/Embedded-Diploma/C_Basics/Assignment1.c">
-			<Option target="Embedded-Diploma"/>
+		<Unit filename="D:/Embedded Course/Embedded-Diploma/C Programming/C Basics/Assignment1.c">
+			<Option target="Assignment1"/>
+		</Unit>
+		<Unit filename="D:/Embedded Course/Embedded-Diploma/C Programming/C Basics/Assignment2.c">
+			<Option target="Assignment2"/>
 		</Unit>
 		<Unit filename="D:/Embedded Course/Embedded-Diploma/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
