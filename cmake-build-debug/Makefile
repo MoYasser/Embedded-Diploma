@@ -141,6 +141,43 @@ Assignment2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/build
 .PHONY : Assignment2/fast
 
+#=============================================================================
+# Target rules for targets named Assignment3
+
+# Build rule for target.
+Assignment3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Assignment3
+.PHONY : Assignment3
+
+# fast build rule for target.
+Assignment3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment3.dir\build.make CMakeFiles/Assignment3.dir/build
+.PHONY : Assignment3/fast
+
+C_Programming/C_Arrays_&_Strings/Assignment3.obj: C_Programming/C_Arrays_&_Strings/Assignment3.c.obj
+.PHONY : C_Programming/C_Arrays_&_Strings/Assignment3.obj
+
+# target to build an object file
+C_Programming/C_Arrays_&_Strings/Assignment3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment3.dir\build.make "CMakeFiles/Assignment3.dir/C_Programming/C_Arrays_&_Strings/Assignment3.c.obj"
+.PHONY : C_Programming/C_Arrays_&_Strings/Assignment3.c.obj
+
+C_Programming/C_Arrays_&_Strings/Assignment3.i: C_Programming/C_Arrays_&_Strings/Assignment3.c.i
+.PHONY : C_Programming/C_Arrays_&_Strings/Assignment3.i
+
+# target to preprocess a source file
+C_Programming/C_Arrays_&_Strings/Assignment3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment3.dir\build.make "CMakeFiles/Assignment3.dir/C_Programming/C_Arrays_&_Strings/Assignment3.c.i"
+.PHONY : C_Programming/C_Arrays_&_Strings/Assignment3.c.i
+
+C_Programming/C_Arrays_&_Strings/Assignment3.s: C_Programming/C_Arrays_&_Strings/Assignment3.c.s
+.PHONY : C_Programming/C_Arrays_&_Strings/Assignment3.s
+
+# target to generate assembly for a file
+C_Programming/C_Arrays_&_Strings/Assignment3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Assignment3.dir\build.make "CMakeFiles/Assignment3.dir/C_Programming/C_Arrays_&_Strings/Assignment3.c.s"
+.PHONY : C_Programming/C_Arrays_&_Strings/Assignment3.c.s
+
 C_Programming/C_Basics/Assignment1.obj: C_Programming/C_Basics/Assignment1.c.obj
 .PHONY : C_Programming/C_Basics/Assignment1.obj
 
@@ -199,6 +236,10 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Assignment1
 	@echo ... Assignment2
+	@echo ... Assignment3
+	@echo ... C_Programming/C_Arrays_&_Strings/Assignment3.obj
+	@echo ... C_Programming/C_Arrays_&_Strings/Assignment3.i
+	@echo ... C_Programming/C_Arrays_&_Strings/Assignment3.s
 	@echo ... C_Programming/C_Basics/Assignment1.obj
 	@echo ... C_Programming/C_Basics/Assignment1.i
 	@echo ... C_Programming/C_Basics/Assignment1.s
